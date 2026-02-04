@@ -7,8 +7,8 @@ export default defineConfig({
   lang: 'de-CH',
   appearance: false,
   head: [
-    ['meta', { property: 'og:title', content: 'Eintrittli – Event-Registrierung. Einfach gemacht.' }],
-    ['meta', { property: 'og:description', content: 'Konfigurierbare Formulare, QR-Codes und Live-Übersicht – ohne Bezahlsystem, ohne Login für Teilnehmer.' }],
+    ['meta', { property: 'og:title', content: 'Eintrittli - Event-Registrierung. Einfach gemacht.' }],
+    ['meta', { property: 'og:description', content: 'Konfigurierbare Formulare, QR-Codes und Live-Übersicht - ohne Bezahlsystem, ohne Login für Teilnehmer.' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
@@ -16,8 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Demo', link: 'https://demo.eintrittli.ch' },
-      { text: 'GitHub', link: 'https://github.com/weborb-ch/eintrittli' }
+      { text: 'Demo', link: 'https://demo.eintrittli.ch' }
     ],
 
     sidebar: [],
@@ -28,7 +27,7 @@ export default defineConfig({
 
     footer: {
       message: 'Open Source unter MIT Lizenz',
-      copyright: '© 2025 WebOrb'
+      copyright: '© 2026 WebOrb'
     }
   }
 })
