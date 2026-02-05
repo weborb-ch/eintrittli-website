@@ -11,8 +11,8 @@ hero:
       text: Demo ausprobieren
       link: https://demo.eintrittli.ch
     - theme: alt
-      text: Auf GitHub ansehen
-      link: https://github.com/weborb-ch/eintrittli
+      text: Kontakt
+      link: /#kontakt
 
 features:
   - icon: 📝
