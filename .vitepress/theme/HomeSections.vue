@@ -209,7 +209,8 @@
 
 .cta-section {
   text-align: center;
-  background: var(--vp-c-text-1);
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
   border-radius: 24px;
   margin: 40px 24px 80px;
   padding: 64px 24px;
@@ -220,16 +221,13 @@
 .cta-title {
   font-size: 2rem;
   font-weight: 700;
-  color: white;
   margin-bottom: 16px;
-  background: none;
-  -webkit-text-fill-color: white;
 }
 
 .cta-subtitle {
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 32px;
+  font-weight: 500;
 }
 
 .cta-buttons {
@@ -249,7 +247,7 @@
 }
 
 .cta-button:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .cta-button.primary {
@@ -258,12 +256,11 @@
 }
 
 .cta-button.primary:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
 }
 
 .cta-button.secondary {
   background: transparent;
-  color: white;
   border: 2px solid white;
 }
 
@@ -274,7 +271,6 @@
 .cta-selfhost {
   margin-top: 24px;
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 8px;
 }
 
