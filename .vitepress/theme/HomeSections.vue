@@ -6,7 +6,7 @@
   <div class="screenshot-section">
     <div class="container">
       <h2 class="section-title">So funktioniert Eintrittli</h2>
-      <p class="section-subtitle">Von der Formularerstellung bis zur Registrierung – alles in wenigen Klicks.</p>
+      <p class="section-subtitle">Von der Formularerstellung bis zur Registrierung.</p>
       
       <div class="screenshot-grid">
         <div class="screenshot-card">
@@ -110,6 +110,7 @@
 
 .section-title {
   font-size: 2.5rem;
+  line-height: 1;
   font-weight: 700;
   text-align: center;
   margin-bottom: 16px;
