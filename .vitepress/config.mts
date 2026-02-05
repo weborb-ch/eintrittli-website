@@ -14,6 +14,8 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: false,
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Demo', link: 'https://demo.eintrittli.ch' }
