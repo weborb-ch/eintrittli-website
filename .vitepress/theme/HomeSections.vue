@@ -48,39 +48,6 @@
     </div>
   </div>
 
-  <!-- Use Cases Section -->
-  <div class="usecases-section">
-    <div class="container">
-      <h2 class="section-title">Perfekt für</h2>
-      
-      <div class="usecase-grid">
-        <div class="usecase-card">
-          <span class="usecase-icon">🎭</span>
-          <h3>Vereinsanlässe</h3>
-          <p>Generalversammlungen, Vereinsfeste, Mitgliederevents</p>
-        </div>
-        
-        <div class="usecase-card">
-          <span class="usecase-icon">🎓</span>
-          <h3>Schulen & Kurse</h3>
-          <p>Elternabende, Workshops, Weiterbildungen</p>
-        </div>
-        
-        <div class="usecase-card">
-          <span class="usecase-icon">🏢</span>
-          <h3>Firmenevents</h3>
-          <p>Teamevents, Betriebsausflüge, Weihnachtsfeiern</p>
-        </div>
-        
-        <div class="usecase-card">
-          <span class="usecase-icon">🎉</span>
-          <h3>Private Feiern</h3>
-          <p>Hochzeiten, Geburtstage, Jubiläen</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- CTA Section -->
   <div class="cta-section" id="kontakt">
     <div class="container">
