@@ -6,7 +6,7 @@ const { site } = useData()
  
 <template>
   <div class="navbar-title">
-    <div class="logo-placeholder">E</div>
+    <img src="/logo.png" class="logo-placeholder" />
     <p class="title-group">
       <a href="/" class="title mona-sans">{{ site.title }}</a>
       <a href="https://weborb.ch" class="subtitle">von <span class="mona-sans">WebOrb</span></a>
@@ -26,15 +26,9 @@ const { site } = useData()
 .logo-placeholder {
   width: 32px;
   height: 32px;
-  background: linear-gradient(135deg, #0A55B5 0%, #74B1FF 100%);
-  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  font-family: 'Mona Sans Expanded', var(--vp-font-family-base);
-  font-weight: 600;
-  font-size: 18px;
 }
 
 .title-group {
