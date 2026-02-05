@@ -8,41 +8,57 @@
       <h2 class="section-title">So funktioniert Eintrittli</h2>
       <p class="section-subtitle">Von der Formularerstellung bis zur Registrierung.</p>
       
-      <div class="screenshot-grid">
-        <div class="screenshot-card">
-          <div class="screenshot-placeholder">
-            <span class="placeholder-icon">🖼️</span>
-            <span class="placeholder-text">Screenshot: Formular-Builder</span>
+      <div class="screenshot-steps">
+        <div class="screenshot-row">
+          <div class="screenshot-image">
+            <div class="screenshot-placeholder">
+              <span class="placeholder-icon">🖼️</span>
+              <span class="placeholder-text">Screenshot: Formular-Builder</span>
+            </div>
           </div>
-          <h3>1. Formular erstellen</h3>
-          <p>Definiere die Felder, die du für dein Event benötigst. Drag & Drop macht es einfach.</p>
+          <div class="screenshot-content">
+            <h3>1. Formular erstellen</h3>
+            <p>Definiere die Felder, die du für dein Event benötigst. Drag & Drop macht es einfach.</p>
+          </div>
         </div>
         
-        <div class="screenshot-card">
-          <div class="screenshot-placeholder">
-            <span class="placeholder-icon">🖼️</span>
-            <span class="placeholder-text">Screenshot: Event erstellen</span>
+        <div class="screenshot-row reverse">
+          <div class="screenshot-image">
+            <div class="screenshot-placeholder">
+              <span class="placeholder-icon">🖼️</span>
+              <span class="placeholder-text">Screenshot: Event erstellen</span>
+            </div>
           </div>
-          <h3>2. Event anlegen</h3>
-          <p>Wähle ein Formular, setze den Zeitraum und erhalte automatisch einen QR-Code.</p>
+          <div class="screenshot-content">
+            <h3>2. Event anlegen</h3>
+            <p>Wähle ein Formular, setze den Zeitraum und erhalte automatisch einen QR-Code.</p>
+          </div>
         </div>
         
-        <div class="screenshot-card">
-          <div class="screenshot-placeholder">
-            <span class="placeholder-icon">🖼️</span>
-            <span class="placeholder-text">Screenshot: Registrierungsformular</span>
+        <div class="screenshot-row">
+          <div class="screenshot-image">
+            <div class="screenshot-placeholder">
+              <span class="placeholder-icon">🖼️</span>
+              <span class="placeholder-text">Screenshot: Registrierungsformular</span>
+            </div>
           </div>
-          <h3>3. Teilnehmer registrieren sich</h3>
-          <p>Teilnehmer scannen den QR-Code und füllen das Formular aus – kein Login nötig.</p>
+          <div class="screenshot-content">
+            <h3>3. Teilnehmer registrieren sich</h3>
+            <p>Teilnehmer scannen den QR-Code und füllen das Formular aus – kein Login nötig.</p>
+          </div>
         </div>
         
-        <div class="screenshot-card">
-          <div class="screenshot-placeholder">
-            <span class="placeholder-icon">🖼️</span>
-            <span class="placeholder-text">Screenshot: Live-Übersicht</span>
+        <div class="screenshot-row reverse">
+          <div class="screenshot-image">
+            <div class="screenshot-placeholder">
+              <span class="placeholder-icon">🖼️</span>
+              <span class="placeholder-text">Screenshot: Live-Übersicht</span>
+            </div>
           </div>
-          <h3>4. Live verfolgen & exportieren</h3>
-          <p>Sieh neue Anmeldungen in Echtzeit und exportiere alles als CSV.</p>
+          <div class="screenshot-content">
+            <h3>4. Live verfolgen & exportieren</h3>
+            <p>Sieh neue Anmeldungen in Echtzeit und exportiere alles als CSV.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -94,22 +110,30 @@
   margin-bottom: 48px;
 }
 
-.screenshot-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
+.screenshot-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
-.screenshot-card {
-  background: var(--vp-c-bg-soft);
-  border-radius: 16px;
-  padding: 24px;
-  transition: transform 0.2s, box-shadow 0.2s;
+.screenshot-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
 }
 
-.screenshot-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+.screenshot-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.screenshot-image {
+  flex: 1;
+  min-width: 0;
+}
+
+.screenshot-content {
+  flex: 1;
+  min-width: 0;
 }
 
 .screenshot-placeholder {
@@ -136,17 +160,17 @@
   padding: 0 16px;
 }
 
-.screenshot-card h3 {
-  font-size: 1.2rem;
+.screenshot-content h3 {
+  font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   color: var(--vp-c-text-1);
 }
 
-.screenshot-card p {
-  font-size: 0.95rem;
+.screenshot-content p {
+  font-size: 1.1rem;
   color: var(--vp-c-text-2);
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .usecase-grid {
@@ -249,6 +273,26 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
+@media (max-width: 768px) {
+  .screenshot-row,
+  .screenshot-row.reverse {
+    flex-direction: column;
+  }
+  
+  .screenshot-image,
+  .screenshot-content {
+    width: 100%;
+  }
+  
+  .screenshot-row {
+    gap: 24px;
+  }
+  
+  .screenshot-content {
+    text-align: center;
+  }
+}
+
 @media (max-width: 640px) {
   .section-title {
     font-size: 1.8rem;
@@ -261,6 +305,14 @@
   .screenshot-section,
   .usecases-section {
     padding: 48px 16px;
+  }
+  
+  .screenshot-content h3 {
+    font-size: 1.25rem;
+  }
+  
+  .screenshot-content p {
+    font-size: 1rem;
   }
 }
 </style>
