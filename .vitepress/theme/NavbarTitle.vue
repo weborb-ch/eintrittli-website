@@ -5,19 +5,42 @@ const { site } = useData()
 </script>
  
 <template>
-  <p class="navbar-title">
-    <a href="/" class="title mona-sans">{{ site.title }}</a>
-    <a href="https://weborb.ch" class="subtitle">von <span class="mona-sans">WebOrb</span></a>
-  </p>
+  <div class="navbar-title">
+    <div class="logo-placeholder">E</div>
+    <p class="title-group">
+      <a href="/" class="title mona-sans">{{ site.title }}</a>
+      <a href="https://weborb.ch" class="subtitle">von <span class="mona-sans">WebOrb</span></a>
+    </p>
+  </div>
 </template>
  
 <style scoped>
 .navbar-title {
   display: flex;
-  flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+  gap: 10px;
   text-decoration: none;
   color: inherit;
+}
+
+.logo-placeholder {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #0A55B5 0%, #74B1FF 100%);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Mona Sans Expanded', var(--vp-font-family-base);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
  
 .mona-sans {

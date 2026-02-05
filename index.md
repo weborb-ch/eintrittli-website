@@ -46,4 +46,8 @@ features:
 .VPFeatures {
   padding-top: 40px !important;
 }
+
+.VPHero .name {
+  font-family: 'Mona Sans Expanded', var(--vp-font-family-base) !important;
+}
 </style>
