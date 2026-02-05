@@ -9,7 +9,7 @@ const { site } = useData()
     <img src="/logo.png" class="logo-placeholder" />
     <p class="title-group">
       <a href="/" class="title mona-sans">{{ site.title }}</a>
-      <a href="https://weborb.ch" class="subtitle">von <span class="mona-sans">WebOrb</span></a>
+      <a href="https://github.com/weborb-ch" class="subtitle">von <span class="mona-sans">WebOrb</span></a>
     </p>
   </div>
 </template>
