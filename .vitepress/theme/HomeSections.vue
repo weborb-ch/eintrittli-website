@@ -18,7 +18,7 @@
           </div>
           <div class="screenshot-content">
             <h3>1. Formular erstellen</h3>
-            <p>Definiere die Felder, die du für dein Event benötigst. Drag & Drop macht es einfach.</p>
+            <p>Definiere die Felder, die du für dein Event benötigst.</p>
           </div>
         </div>
         
@@ -44,7 +44,7 @@
           </div>
           <div class="screenshot-content">
             <h3>3. Teilnehmer registrieren sich</h3>
-            <p>Teilnehmer scannen den QR-Code und füllen das Formular aus – kein Login nötig.</p>
+            <p>Teilnehmer scannen den QR-Code und füllen das Formular aus. Kein Login nötig.</p>
           </div>
         </div>
         
@@ -67,12 +67,12 @@
   <!-- CTA Section -->
   <div class="cta-section" id="kontakt">
     <div class="container">
-      <h2 class="cta-title">Bereit für einfache Event-Registrierung?</h2>
-      <p class="cta-subtitle">Teste Eintrittli kostenlos oder hoste es selbst auf deinem Server.</p>
+      <h2 class="cta-title">Interesse an Eintrittli?</h2>
+      <p class="cta-subtitle">Schreib mir einfach eine E-Mail, dann helfe ich dir gerne weiter!</p>
       <div class="cta-buttons">
-        <a href="https://demo.eintrittli.ch" class="cta-button primary">Demo starten</a>
-        <a href="https://github.com/weborb-ch/eintrittli" class="cta-button secondary">GitHub Repository</a>
+        <a href="mailto:jannis@eintrittli.ch" class="cta-button primary">jannis@eintrittli.ch</a>
       </div>
+      <p class="cta-selfhost">Du kennst dich mit IT aus? Dann kannst du Eintrittli auch selbst hosten.</p>
     </div>
   </div>
 </template>
@@ -97,10 +97,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 16px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #257DEC;
 }
 
 .section-subtitle {
@@ -212,11 +209,12 @@
 
 .cta-section {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--vp-c-text-1);
   border-radius: 24px;
   margin: 40px 24px 80px;
   padding: 64px 24px;
   max-width: 1100px;
+  margin: auto;
 }
 
 .cta-title {
@@ -256,7 +254,7 @@
 
 .cta-button.primary {
   background: white;
-  color: #667eea;
+  color: var(--vp-c-text-1);
 }
 
 .cta-button.primary:hover {
@@ -271,6 +269,26 @@
 
 .cta-button.secondary:hover {
   background: rgba(255, 255, 255, 0.1);
+}
+
+.cta-selfhost {
+  margin-top: 24px;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 8px;
+}
+
+.cta-link {
+  color: white;
+  font-size: 0.95rem;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.cta-link:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {

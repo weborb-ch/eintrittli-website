@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Eintrittli"
   text: "Event-Registrierung. Einfach gemacht."
-  tagline: Konfigurierbare Formulare, QR-Codes und Live-Übersicht – ohne Bezahlsystem, ohne Login für Teilnehmer.
+  tagline: Konfigurierbare Formulare, QR-Codes und Live-Übersicht. Ohne Bezahlsystem, ohne Login für Teilnehmer.
   actions:
     - theme: brand
       text: Demo ausprobieren
@@ -32,13 +32,13 @@ features:
     details: Definiere Start- und Enddatum für Registrierungen. Formulare werden automatisch geschlossen, wenn die Zeit abläuft.
   - icon: 🚀
     title: Selbst hosten
-    details: Volle Kontrolle über deine Daten. Einfaches Deployment mit Docker – läuft auf deinem eigenen Server.
+    details: Volle Kontrolle über deine Daten. Einfaches Deployment mit Docker, dann läuft auf deinem eigenen Server.
 ---
 
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --vp-home-hero-name-background: linear-gradient(135deg, #0A55B5 0%, #74B1FF 100%);
   --vp-home-hero-image-background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --vp-home-hero-image-filter: blur(56px);
 }
