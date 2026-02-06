@@ -5,7 +5,10 @@ layout: home
 hero:
   name: "Eintrittli"
   text: "Anlass-Registrierung. Einfach gemacht."
-  tagline: Konfigurierbare Formulare, QR-Codes und Live-Übersicht. Ohne Bezahlsystem, ohne Login für Teilnehmer.
+  tagline: Konfigurierbare Formulare, QR-Codes und Live-Übersicht. Ohne Bezahlsystem und ohne Login für Teilnehmer.
+  image:
+    src: /eintrittli_mockup.png
+    alt: Eintrittli App Mockup
   actions:
     - theme: brand
       text: Demo ausprobieren
@@ -39,8 +42,13 @@ features:
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(135deg, #0A55B5 0%, #74B1FF 100%);
-  --vp-home-hero-image-background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --vp-home-hero-image-filter: blur(56px);
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
+
+  --vp-breakpoint-xs: 480px;
+  --vp-breakpoint-sm: 768px;
+  --vp-breakpoint-md: 1024px;
+  --vp-breakpoint-lg: 1280px;
 }
 
 .VPFeatures {
@@ -49,5 +57,28 @@ features:
 
 .VPHero .name {
   font-family: 'Mona Sans Expanded', var(--vp-font-family-base) !important;
+}
+
+.VPHero .image-container {
+  transform: none;
+}
+
+.VPHero .image {
+  /* padding: 2rem; */
+}
+
+.VPHero .image-container .image-bg {
+  display: none;
+}
+
+.VPHero .VPImage {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 959px) {
+  .VPHero .image-container {
+    max-width: 100%; 
+  }
 }
 </style>
