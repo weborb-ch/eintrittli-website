@@ -1,57 +1,50 @@
 <script setup lang="ts">
-import { useData } from 'vitepress'
- 
-const { site } = useData()
 </script>
- 
+
 <template>
-  <div class="navbar-title">
-    <img src="/logo.png" class="logo-placeholder" />
-    <p class="title-group">
-      <a href="/" class="title mona-sans">{{ site.title }}</a>
-      <a href="https://github.com/weborb-ch" class="subtitle">von <span class="mona-sans">WebOrb</span></a>
-    </p>
-  </div>
+  <a href="/" class="custom-nav-title">
+    <div class="nav-logo">
+      <img src="/logo.png" alt="Logo" />
+    </div>
+    <div class="nav-text">
+      <span class="nav-brand">Eintrittli</span>
+      <span class="nav-subtitle">von WebOrb</span>
+    </div>
+  </a>
 </template>
- 
+
 <style scoped>
-.navbar-title {
+.custom-nav-title {
   display: flex;
   align-items: center;
-  gap: 10px;
   text-decoration: none;
-  color: inherit;
+  gap: 10px;
 }
 
-.logo-placeholder {
+.nav-logo {
   width: 32px;
   height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-shrink: 0;
 }
 
-.title-group {
+.nav-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  line-height: 1;
 }
- 
-.mona-sans {
+
+.nav-brand {
   font-family: 'Mona Sans Expanded', var(--vp-font-family-base);
-}
- 
-.title {
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--vp-c-text-1);
 }
- 
-.subtitle {
-  font-size: 10px;
+
+.nav-subtitle {
+  font-size: 9px;
+  color: var(--vp-c-text-3);
   font-weight: 400;
-  color: var(--vp-c-text-2);
-  opacity: 0.7;
-  line-height: 0.6;
+  margin-top: 2px;
 }
 </style>
