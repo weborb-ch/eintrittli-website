@@ -124,7 +124,7 @@
 .screenshot-img {
   width: 100%;
   border-radius: 12px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 24px #0000001a;
 }
 
 .screenshot-content h3 {
@@ -180,7 +180,7 @@
 .cta-section {
   text-align: center;
   color: var(--vp-c-text-1);
-  background: var(--vp-c-bg-soft);
+  background: #f6f6f7;
   border-radius: 24px;
   margin: 40px 24px 80px;
   padding: 64px 24px;
@@ -226,7 +226,7 @@
 }
 
 .cta-button.primary:hover {
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 24px #0000001a;
 }
 
 .cta-button.secondary {
@@ -235,7 +235,7 @@
 }
 
 .cta-button.secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff1a;
 }
 
 .cta-selfhost {

@@ -7,6 +7,7 @@ export default defineConfig({
   lang: 'de-CH',
   appearance: false,
   head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     ['meta', { property: 'og:title', content: 'Eintrittli - Anlass-Registrierung. Einfach gemacht.' }],
     ['meta', { property: 'og:description', content: 'Konfigurierbare Formulare, QR-Codes und Live-Übersicht - ohne Bezahlsystem, ohne Login für Teilnehmer.' }],
     ['meta', { property: 'og:type', content: 'website' }],
