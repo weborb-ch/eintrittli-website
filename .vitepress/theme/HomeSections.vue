@@ -11,36 +11,27 @@
       <div class="screenshot-steps">
         <div class="screenshot-row">
           <div class="screenshot-image">
-            <div class="screenshot-placeholder">
-              <span class="placeholder-icon">🖼️</span>
-              <span class="placeholder-text">Screenshot: Formular-Builder</span>
-            </div>
+            <img src="/screenshots/formular_erstellen.png" alt="Screenshot: Formular-Builder" class="screenshot-img" />
           </div>
           <div class="screenshot-content">
-            <h3>1. Formular erstellen</h3>
+            <h3>1. Formular anlegen</h3>
             <p>Definiere die Felder, die du für dein Event benötigst.</p>
           </div>
         </div>
         
         <div class="screenshot-row reverse">
           <div class="screenshot-image">
-            <div class="screenshot-placeholder">
-              <span class="placeholder-icon">🖼️</span>
-              <span class="placeholder-text">Screenshot: Event erstellen</span>
-            </div>
+            <img src="/screenshots/anlass_erstellen.png" alt="Screenshot: Event erstellen" class="screenshot-img" />
           </div>
           <div class="screenshot-content">
-            <h3>2. Event anlegen</h3>
+            <h3>2. Anlass erstellen</h3>
             <p>Wähle ein Formular, setze den Zeitraum und erhalte automatisch einen QR-Code.</p>
           </div>
         </div>
         
         <div class="screenshot-row">
           <div class="screenshot-image">
-            <div class="screenshot-placeholder">
-              <span class="placeholder-icon">🖼️</span>
-              <span class="placeholder-text">Screenshot: Registrierungsformular</span>
-            </div>
+            <img src="/screenshots/qr_code_anmeldung.png" alt="Screenshot: Registrierungsformular" class="screenshot-img" />
           </div>
           <div class="screenshot-content">
             <h3>3. Teilnehmer registrieren sich</h3>
@@ -50,10 +41,7 @@
         
         <div class="screenshot-row reverse">
           <div class="screenshot-image">
-            <div class="screenshot-placeholder">
-              <span class="placeholder-icon">🖼️</span>
-              <span class="placeholder-text">Screenshot: Live-Übersicht</span>
-            </div>
+            <img src="/screenshots/anmeldungen.png" alt="Screenshot: Live-Übersicht" class="screenshot-img" />
           </div>
           <div class="screenshot-content">
             <h3>4. Live verfolgen & exportieren</h3>
@@ -133,28 +121,10 @@
   min-width: 0;
 }
 
-.screenshot-placeholder {
-  background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+.screenshot-img {
+  width: 100%;
   border-radius: 12px;
-  height: 180px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  border: 2px dashed #ccc;
-}
-
-.placeholder-icon {
-  font-size: 3rem;
-  margin-bottom: 8px;
-}
-
-.placeholder-text {
-  font-size: 0.85rem;
-  color: #888;
-  text-align: center;
-  padding: 0 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
 }
 
 .screenshot-content h3 {
