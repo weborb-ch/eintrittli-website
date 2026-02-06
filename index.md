@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Eintrittli"
-  text: "Event-Registrierung. Einfach gemacht."
+  text: "Anlass-Registrierung. Einfach gemacht."
   tagline: Konfigurierbare Formulare, QR-Codes und Live-Übersicht. Ohne Bezahlsystem, ohne Login für Teilnehmer.
   actions:
     - theme: brand
@@ -20,7 +20,7 @@ features:
     details: Erstelle individuelle Anmeldeformulare mit Text, E-Mail, Datum, Auswahl und mehr – ganz ohne Programmierung.
   - icon: 📱
     title: QR-Code & Link
-    details: Generiere automatisch QR-Codes und teilbare Links für jedes Event. Teilnehmer scannen und registrieren sich sofort.
+    details: Generiere automatisch QR-Codes und teilbare Links für jeden Anlass. Teilnehmer scannen und registrieren sich sofort.
   - icon: 🔴
     title: Live-Ansicht
     details: Beobachte neue Anmeldungen in Echtzeit. Die Admin-Konsole aktualisiert sich automatisch alle 5 Sekunden.
@@ -28,7 +28,7 @@ features:
     title: CSV-Export
     details: Exportiere alle Registrierungen mit einem Klick als CSV-Datei für Excel, Google Sheets oder andere Tools.
   - icon: 🎉
-    title: Flexible Events
+    title: Flexible Anlässe
     details: Definiere Start- und Enddatum für Registrierungen. Formulare werden automatisch geschlossen, wenn die Zeit abläuft.
   - icon: 🚀
     title: Selbst hosten

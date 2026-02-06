@@ -15,13 +15,13 @@
           </div>
           <div class="screenshot-content">
             <h3>1. Formular anlegen</h3>
-            <p>Definiere die Felder, die du für dein Event benötigst.</p>
+            <p>Definiere die Felder, die du für deinen Anlass benötigst.</p>
           </div>
         </div>
         
         <div class="screenshot-row reverse">
           <div class="screenshot-image">
-            <img src="/screenshots/anlass_erstellen.png" alt="Screenshot: Event erstellen" class="screenshot-img" />
+            <img src="/screenshots/anlass_erstellen.png" alt="Screenshot: Anlass erstellen" class="screenshot-img" />
           </div>
           <div class="screenshot-content">
             <h3>2. Anlass erstellen</h3>

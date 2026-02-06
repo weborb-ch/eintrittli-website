@@ -3,11 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Eintrittli",
-  description: "Einfaches Event-Registrierungssystem mit konfigurierbaren Formularen, QR-Codes und CSV-Export. Keine Bezahlungen, kein Login für Teilnehmer.",
+  description: "Einfaches Anlass-Registrierungssystem mit konfigurierbaren Formularen, QR-Codes und CSV-Export. Keine Bezahlungen, kein Login für Teilnehmer.",
   lang: 'de-CH',
   appearance: false,
   head: [
-    ['meta', { property: 'og:title', content: 'Eintrittli - Event-Registrierung. Einfach gemacht.' }],
+    ['meta', { property: 'og:title', content: 'Eintrittli - Anlass-Registrierung. Einfach gemacht.' }],
     ['meta', { property: 'og:description', content: 'Konfigurierbare Formulare, QR-Codes und Live-Übersicht - ohne Bezahlsystem, ohne Login für Teilnehmer.' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
