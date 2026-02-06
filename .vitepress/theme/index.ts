@@ -4,7 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import HomeSections from './HomeSections.vue'
-import NavBarTitle from './NavBarTitle.vue'
+import NavbarTitle from './NavbarTitle.vue'
 
 export default {
   extends: DefaultTheme,
@@ -12,7 +12,7 @@ export default {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
       'home-features-after': () => h(HomeSections),
-      'nav-bar-title-before': () => h(NavBarTitle)
+      'nav-bar-title-before': () => h(NavbarTitle)
     })
   },
   enhanceApp({ app, router, siteData }) {
