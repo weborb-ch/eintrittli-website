@@ -24,7 +24,7 @@ features:
   - icon: 📱
     title: QR-Code & Link
     details: Generiere automatisch QR-Codes und teilbare Links für jeden Anlass. Teilnehmer scannen und registrieren sich sofort.
-  - icon: �
+  - icon: 📋
     title: Übersichtliches Dashboard
     details: Behalte alle Anmeldungen im Blick. Das Admin-Dashboard zeigt dir auf einen Blick, wer sich registriert hat.
   - icon: 📊
