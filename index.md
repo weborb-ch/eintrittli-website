@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Eintrittli"
   text: "Anlass-Registrierung. Einfach gemacht."
-  tagline: Konfigurierbare Formulare, QR-Codes und Live-Übersicht. Ohne Bezahlsystem und ohne Login für Teilnehmer.
+  tagline: Konfigurierbare Formulare, QR-Codes und übersichtliches Dashboard. Ohne Bezahlsystem und ohne Login für Teilnehmer.
   image:
     src: /eintrittli_mockup.png
     alt: Eintrittli App Mockup
@@ -24,9 +24,9 @@ features:
   - icon: 📱
     title: QR-Code & Link
     details: Generiere automatisch QR-Codes und teilbare Links für jeden Anlass. Teilnehmer scannen und registrieren sich sofort.
-  - icon: 🔴
-    title: Live-Ansicht
-    details: Beobachte neue Anmeldungen in Echtzeit. Die Admin-Konsole aktualisiert sich automatisch alle 5 Sekunden.
+  - icon: �
+    title: Übersichtliches Dashboard
+    details: Behalte alle Anmeldungen im Blick. Das Admin-Dashboard zeigt dir auf einen Blick, wer sich registriert hat.
   - icon: 📊
     title: CSV-Export
     details: Exportiere alle Registrierungen mit einem Klick als CSV-Datei für Excel, Google Sheets oder andere Tools.
