@@ -44,8 +44,8 @@
             <img src="/screenshots/anmeldungen.png" alt="Screenshot: Live-Übersicht" class="screenshot-img" />
           </div>
           <div class="screenshot-content">
-            <h3>4. Live verfolgen & exportieren</h3>
-            <p>Sieh neue Anmeldungen in Echtzeit und exportiere alles als CSV.</p>
+            <h3>4. Dashboard & CSV Export</h3>
+            <p>Sieh neue Anmeldungen übersichtlich und exportiere alles als CSV.</p>
           </div>
         </div>
       </div>
